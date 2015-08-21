@@ -1,3 +1,56 @@
+* {
+	text-decoration: none;
+}
+
+.opaquepic, #bell {
+	opacity: 0.6;
+}
+
+.opaquepic:hover, #bell:hover {
+	opacity: 1;
+}
+
+#header {
+	position: fixed;
+	right: 20px;
+
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	float: right;
+	vertical-align: center;
+}
+
+.headblock {
+	display: block;
+	margin: 15px 10px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+
+}
+
+#me {
+	margin-top: 8px;
+}
+
+.roundedimage {
+	border-radius: 50px;
+}
+
+#bell {
+	width: 10px;
+	height: 10px;
+	padding: 5px;
+	background-color: #000;
+}
+
 #logo {
 	display: block;
 	margin: auto;
@@ -28,7 +81,6 @@
 	position: relative;
 	right: 25px;
 	top: 5px;
-	opacity: 0.6;
 }
 
 #btnblock {
