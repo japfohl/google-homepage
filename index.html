@@ -7,10 +7,12 @@
 	<body>
 			<img id="logo" src="images/mainlogo.png" alt="Google Logo">
 			<form action="submitforsearch.rb" method="post">
-				<input id="search-box" type="text" name="search-for">
+				<div id="search_container">
+					<input id="search-box" type="text" name="search-for">
+				</div>
 				<div id="btnblock">
-					<input type="submit" value="Search Google" name="google-search">
-					<input type="submit" value="I'm Feeling Lucky" name="feel-luck">
+					<input  class="button" type="submit" value="Search Google" name="google-search">
+					<input class="button" type="submit" value="I'm Feeling Lucky" name="feel-luck">
 				</div>
 			</form>
 	</body>

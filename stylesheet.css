@@ -11,11 +11,12 @@
 	margin: auto;
 	position: relative;
 	margin-top: 22px;
-	height: 23px;
-	width: 500px;
+	height: 25px;
+	width: 565px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #BEBEBE #DBDBDB #DBDBDB #DBDBDB;
+	border-radius: 2px;
 }
 
 #btnblock {
@@ -23,4 +24,14 @@
 	margin-top: 15px;
 }
 
-
+.button {
+	margin: 0px 5px;
+	height: 30px;
+	font-family: arial, sans-serif	;
+	font-size: 11px;
+	color: #474747;
+	font-weight: bold;
+	background-color: #f5f5f5;
+	border: 1px solid #dbdbdb;
+	border-radius: 2px;
+}
